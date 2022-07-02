@@ -1,5 +1,5 @@
 # vue-project
-
+최정옥
 ## Project setup
 ```
 npm install
