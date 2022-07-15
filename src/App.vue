@@ -2,7 +2,10 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/pearl">pearl</router-link>
+    <router-link to="/pearl">pearl</router-link> |
+    <router-link to="/databinding">Data Binding</router-link> |
+    <router-link to="/databinding02">Data Binding02</router-link> |
+    <router-link to="/v-for">v-for</router-link> |
   </nav>
   <router-view/>
 </template>
