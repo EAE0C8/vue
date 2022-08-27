@@ -5,7 +5,15 @@
     <router-link to="/pearl">pearl</router-link> |
     <router-link to="/databinding">Data Binding</router-link> |
     <router-link to="/databinding02">Data Binding02</router-link> |
-    <router-link to="/v-for">v-for</router-link> |
+    <router-link to="/v-for">V-FOR</router-link> |
+    <router-link to="/v-if">V-IF</router-link> |
+    <router-link to="/v-on">V-ON</router-link> |
+    <router-link to="/ChildComponent">ChildComponent</router-link> |
+    <router-link to="/ParentComponent5">ParentComponent5</router-link> |
+
+    <br><br>
+    <router-link to="/NestedComponent">NestedComponent</router-link> |
+    <router-link to="/NestedComponentAdd">NestedComponentAdd</router-link>
   </nav>
   <router-view/>
 </template>

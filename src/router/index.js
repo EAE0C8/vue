@@ -36,6 +36,36 @@ const routes = [ //const <- 타입 routes = (배열로 받아야 하고 오프�
     name: 'v-for',
     component: () => import(/* webpackPrefetch: true */ '../views/v-for.vue')
   },
+  {
+    path: '/v-if',
+    name: 'v-if',
+    component: () => import(/* webpackPrefetch: true */ '../views/v-if.vue')
+  },
+  {
+    path: '/v-on',
+    name: 'v-on',
+    component: () => import(/* webpackPrefetch: true */ '../views/v-on.vue')
+  },
+  {
+    path: '/ChildComponent',
+    name: 'ChildComponent',
+    component: () => import(/* webpackPrefetch: true */ '../views/ChildComponent.vue')
+  },
+  {
+    path: '/ParentComponent5',
+    name: 'ParentComponent5',
+    component: () => import(/* webpackPrefetch: true */ '../views/ParentComponent5.vue')
+  },
+  {
+    path: '/NestedComponent',
+    name: 'NestedComponent',
+    component: () => import(/* webpackPrefetch: true */ '../views/NestedComponent.vue')
+  },
+  {
+    path: '/NestedComponentAdd',
+    name: 'NestedComponentAdd',
+    component: () => import(/* webpackPrefetch: true */ '../views/NestedComponentAdd.vue')
+  },
 ]
 
 const router = createRouter({

@@ -36,11 +36,14 @@
 </script>
 
 <style scoped>
-.active {
-  background-color: yellow;
-  font-weight: bold;
+table {
+  font-font: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
-.text-red {
-  color: red;
+td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
 }
 </style>

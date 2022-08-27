@@ -3,6 +3,7 @@
    <img alt="Vue logo" src="../assets/logo.png">
    <h1>Hello, {{ title }}!</h1>
    <div>{{ htmlString }}</div>
+
    <div v-html="htmlString"></div>
    <div><input type="text" v-model="valueModel" class="input-spot"></div>
    <div><input type="number" v-model.number="numberModel" class="input-spot"></div>
@@ -39,11 +40,11 @@
 </template>
 
 <script>
- export default {
+ export default { //마운트 할때
   data() {
     return {
       title: 'world',
-      htmlString: '<p style="color:red;">This is a red string',
+      htmlString: '<p style="color:red;">This is a red string', //업데이트
       valueModel: 'south korea',
       numberModel: '3',
       message: '여러 줄을 입력할 수 있습니다.',

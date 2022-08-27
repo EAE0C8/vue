@@ -41,11 +41,4 @@
 </script>
 
 <style scoped>
-.active {
-  background-color: yellow;
-  font-weight: bold;
-}
-.text-red {
-  color: red;
-}
 </style>
