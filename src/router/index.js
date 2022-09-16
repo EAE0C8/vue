@@ -36,6 +36,11 @@ const routes = [ //const <- 타입 routes = (배열로 받아야 하고 오프�
     name: 'v-for',
     component: () => import(/* webpackPrefetch: true */ '../views/v-for.vue')
   },
+  {
+    path: '/StoreAccess',
+    name: 'v-StoreAccess',
+    component: () => import(/* webpackPrefetch: true */ '../views/StoreAccess.vue')
+  },
 ]
 
 const router = createRouter({
