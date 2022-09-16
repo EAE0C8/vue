@@ -6,10 +6,10 @@
     <router-link to="/databinding">Data Binding</router-link> |
     <router-link to="/databinding02">Data Binding02</router-link> |
     <router-link to="/v-for">v-for</router-link> |
+    <router-link to="/StoreAccess">StoreAccess</router-link> |
   </nav>
   <router-view/>
 </template>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -32,3 +32,4 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+
